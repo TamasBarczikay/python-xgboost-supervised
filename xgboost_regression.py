@@ -10,7 +10,7 @@ import optuna
 import scipy.stats as stats
 
 # Load dataset and select relevant variables
-file_path = r'C:\WORK\Projects\CSP\miami-housing.csv'  # Use raw string to handle backslashes
+file_path = r'/Users/tamasbarczikay/VScode_projects/python-xgboost-supervised/miami-housing.csv'  # Use raw string to handle backslashes
 data = pd.read_csv(file_path)
 data = data[['PARCELNO', 'SALE_PRC', 'age', 'structure_quality', 'CNTR_DIST', 'LND_SQFOOT', 'TOT_LVG_AREA']]
 
